@@ -12,4 +12,4 @@ Sample for rails, vuejs
 
 ## Link
 
-- [GETTING START](./docs/dev_env.md)
+- [開発環境構築](./docs/dev_env.md)
