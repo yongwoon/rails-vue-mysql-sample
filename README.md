@@ -1,24 +1,15 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Sample for rails, vuejs
 
-Things you may want to cover:
+## Environment
 
-- Ruby version
+| element | version |
+| ------- | ------- |
+| ruby    | 2.6.5   |
+| rails   | 6.0.1.2 |
+| mysql   | 8.0.19  |
 
-- System dependencies
+## Link
 
-- Configuration
-
-- Database creation
-
-- Database initialization
-
-- How to run the test suite
-
-- Services (job queues, cache servers, search engines, etc.)
-
-- Deployment instructions
-
-- ...
+- [GETTING START](./docs/dev_env.md)
