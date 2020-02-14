@@ -31,6 +31,8 @@ services:
       - mysql_volume:/var/lib/mysql
     networks:
       - dev_rails_vue_sample_network
+    security_opt:
+      - seccomp:unconfined
 
 volumes:
   mysql_volume:
