@@ -13,7 +13,9 @@
     <tbody>
       <tr v-for="post in posts" :key="post.id">
         <td>{{ post.id }}</td>
-        <td>{{ post.title }}</td>
+        <td>
+          <a v-bind:href="postUrl(post.id)">{{ post.title }}</a>
+        </td>
         <td>{{ post.created_at }}</td>
       </tr>
     </tbody>
@@ -26,7 +28,11 @@ export default {
   props: {
     posts: Array
   },
-  methods: {}
+  methods: {
+    postUrl(post_id) {
+      return `http://localhost:3000/posts/${post_id}`;
+    }
+  }
 };
 </script>
 

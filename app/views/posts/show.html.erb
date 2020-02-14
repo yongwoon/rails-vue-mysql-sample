@@ -1,3 +1,10 @@
+<%= link_to "back", root_path %>
 
 <h1>Post#show</h1>
-<p>Find me in app/views/post/index.html.erb</p>
+
+<div>
+  <div><%= @post.id %></div>
+  <div><%= @post.title %></div>
+  <div><%= @post.body %></div>
+  <div><%= @post.created_at %></div>
+</div>
